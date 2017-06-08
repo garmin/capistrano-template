@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Capistrano::Template::VERSION
   gem.authors       = ["Tony Pitluga"]
   gem.email         = ["tony.pitluga@gmail.com"]
- spec.summary       = %q(Erb-Template rendering and upload for capistrano 3)
-  spec.description   = %q(A capistrano 3 plugin that aids in rendering erb templates and
+  gem.summary       = %q(Erb-Template rendering and upload for capistrano 3)
+  gem.description   = %q(A capistrano 3 plugin that aids in rendering erb templates and
 uploads the content to the server if the file does not exists at
 the remote host or the content did change)
   gem.homepage      = "https://github.com/Navionics/capistrano-template"
